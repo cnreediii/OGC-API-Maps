@@ -58,18 +58,17 @@ The formal proposed name of the new multi-part standard is "{swgname}". The shor
 
 === Business Value Proposition
 
-In October 2019, the Programmable Web https://www.programmableweb.com/news/which-are-developers-favorite-apis/research/2019/10/24[reported] that a web mapping product was amongst the top-two tracked APIs on the Programmable Web API directory. The presence of a web mapping product amongst the top-two tracked APIs on Programmable Web is evidence of the wide interest across both the geospatial community and the general public. However, further evidence of the popularity and adoption of web mapping can be seen from the uptake of the Web Map Service (WMS) standard which is listed - as of May 2020 - as having the most number of implementations on the OGC https://www.ogc.org/resource/products/stats[Implementation Statistics] webpage.
+In October 2019, the Programmable Web https://www.programmableweb.com/news/which-are-developers-favorite-apis/research/2019/10/24[reported] that a web mapping product was amongst the top-two tracked APIs on the Programmable Web API directory. The presence of a web mapping product among the top-two tracked APIs on Programmable Web is evidence of the wide interest across both the geospatial community and the general public. However, further evidence of the popularity and adoption of web mapping can be seen from the uptake of the Web Map Service (WMS) standard which is listed - as of May 2020 - as having the most implementations on the OGC https://www.ogc.org/resource/products/stats[Implementation Statistics] webpage.
 
 === Scope of Work
 
 OpenAPI frameworks have helped make describing and sharing API definitions more suitable for interoperability standardization. The concept of a {shortname} was demonstrated in various OGC Innovation Program initiatives.
 
-The {swgname} SWG will build on those preliminary efforts to more fully develop and document a {shortname} candidate standard that will provide a modernized, common, and consistent interface to services that aligns with the current architecture of the Web and the
-Spatial Data on the Web Best Practices (https://www.w3.org/TR/sdw-bp/).
+The {swgname} SWG will build on those preliminary efforts to more fully develop and document a {shortname} candidate standard that will provide a modernized, common, and consistent interface to services that aligns with the current architecture of the Web and the Spatial Data on the Web Best Practices (https://www.w3.org/TR/sdw-bp/).
 
 The {swgname} SWG will develop a {shortname} candidate standard which is informed by emerging OGC API best practices and prior API standards examples (e.g., OGC API - Features) to define core API functions of GET, PUT, PATCH, POST, DELETE applied to {resources} as resources. The {shortname} will also document metadata requirements for {resources} to enhance discovery and exchange of {resources}.
 
-* Architecture: The {swgname} standard will specify an implementation specification aligned with prior work in OGC for {resources} and Web APIs. The proposed standard will define API building blocks for {resources} in Web API. {swgname} will be consistent with HTTP and HTTPS.
+* Architecture: The {swgname} standard standard will align with prior OGC work for {resources} and Web APIs. The proposed standard will define API building blocks for {resources} based Web API best practices. {swgname} will be consistent with HTTP and HTTPS.
 
 *	Encodings: The first version of the {shortname} will support JSON and HTML as encodings for descriptions of {resource} resources in the API. No encoding will be mandatory and other encodings may be used as well. The HTTP focus is designed to support the use of multiple formats and defines rules about how servers can return the encoding that the client can best handle (“content negotiation”).
 
